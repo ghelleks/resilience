@@ -83,46 +83,43 @@ The material is divided into a number of modules, each with their own readings, 
 
 ## Orientation
 
-* What's your appetite?
+<div class="notes">
+In Orientation, we encourage the project leaders to think critically about
+their hopes and their limitations. They'll their motivations, the outcomes they
+want for themselves and their users, and what sacrifices they'll be willing to
+make.
+
+By encouraging a self-aware and deliberative process, our leaders will be
+better able to articulate their mission to stakeholders, and make more informed
+decisions about the issues introduced later in the coursework. 
+</div>
+
+* **What's your appetite?**
     * Is this a hobby, or do you want to do this full-time?
     * How much money would keep you from working on this ever again?
     * Do you love the project, the people, or the mission?
-* What's your exit?
+* **What's your exit?**
     * Are you time-bound?
     * Are you milestone-bound?
-    * Use regret as a compass.
+    * Using regret as a compass.
 
-<div class="notes">
-In Orientation, we encourage the project leaders to think critically about their hopes and their limitations.
-</div>
 ## Products & Services
 
-* Licensing
-* Contract Work
-    * Consulting
-    * Customization
-* Support Contracts
-* Product Management
-    * Bug triage
-    * Feature wrangling
-* Quality Assurance
-
 <div class="notes">
-Very few leaders have been involved in a professional sofware operation. This module helps them understand all the jobs, roles, and interactions necessary to create a professional software project.
+Very few leaders have been involved in a professional sofware operation. This module helps them understand different aspects of the industry. 
+
 </div>
 
-## Relationships
+* **Business Models**
+  ~ Licensing, consulting, support contracts
+* **Product Management**
+  ~ Managing roadmaps, triaging bugs
+* **Quality Assurance**
+  ~ Code reviews, security, and test-driven development
+* **Release Engineering**
+  ~ Code reviews, product packaging
 
-* Funders
-    * Sustainment
-* Investors
-    * Grants
-    * Equity
-* Customers
-* Users
-* Partners
-    * VARs
-    * Distributors
+## Relationships
 
 <div class="notes">
 In the Relationships module, the leaders are to think critically about the
@@ -130,26 +127,71 @@ stakeholders in their project, what those stakeholders expect of them, and how
 they can make those relationships as productive as possible.
 </div>
 
+* **Investors**
+  ~ Private equity, venture capital, philanthropy
+* **Customers**
+  ~ Creating a value proposition, basic sales principles
+* **Users**
+  ~ Listening to your beneficiaries
+* **Channel Partners**
+  ~ VARs, Distributors
+
 ## Intellectual Rights
 
-* Intro to copyright
-* Intro to patents
-* Choosing licenses
+<div class="notes">
+A proper understanding of intellectual property is essential to any technology
+business. Mishandled licensing, for example, can permanently damage the
+reputation and future prospects of a young project. Especially in the field of
+patents and open source software, laws and norms are unintuitive and quickly
+overwhelm even experienced attorneys. The Intellectual Rights module won't turn
+leaders into _a priori_ lawyers, but it will help them understand the issues
+involved and know what questions to ask. 
+</div>
+
+* **Copyright**
+  ~ How copyright applies to software, how to properly manage a portfolio of software
+* **Patents**
+  ~ Understanding the patent regime, protecting the project from non-practicing entities
+* **Open Source Licensing**
+  ~ Choosing a license, managing community contributions
 
 ## Communication
 
-* Determine your audiences
-    * Funders
-    * Users
-    * Customers
-    * Suppliers
-* Creating a brand.
-* Marketing channels
-* Working with agencies
+<div class="notes">
+The majority of projects are advertised through word-of-mouth and exposure at conferences, which
+is necessarily the most effective way to gain exposure. The Communication module encourges leaders
+to understand and apply all possible routes to market, know which tools are most effective to
+reach a particular audience, and how to measure their progress.
+</div>
+
+* **Audiences.**
+  ~ Funders, users, customers, vendors, partners
+* **Creating a brand.**
+  ~ Designs, creation, and upkeep
+* **Tools.**
+  ~ Online, print, interactive, events, analytics
+* **Working with agencies and channels.**
+  ~ Collaborations, templates, and brand books
 
 ## Community
 
-* Reaching different communities
-* Matching tools with communities
-* What to do when they show up
+<div class="notes">
+While many of these projects are TK
+</div>
+
+* **Taxonomy**
+  ~ Different kinds of communities, Etienne Wenger and Karl Fogel's conceptions
+* **Tools**
+  ~ Different technology and methods for handling community work
+* **Development**
+  ~ Strategies for seeding, measuring, and nurturing
+
+# Approach
+
+## Courses
+
+## Mentoring
+
+## Packages
+
 

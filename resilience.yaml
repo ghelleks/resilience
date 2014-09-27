@@ -1,0 +1,20 @@
+---
+title:
+- type: main
+  text: The Resilience Project
+- type: subtitle
+  text: Building projects that can care for themselves
+author:
+- text: Gunnar Hellekson
+creator:
+- role: author
+  text: Gunnar Hellekson
+identifier:
+- scheme: DOI
+  text: doi:XXX
+publisher: foo
+rights: 
+  text: (c) 2014 Gunnar Hellekson, CC BY-NC
+abstract: Proposes the creation of a curriculum for civic hackers that improves their awareness of business, marketing, and legal issues.
+
+---

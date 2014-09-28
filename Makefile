@@ -2,26 +2,32 @@
 SOURCE = resilience.md 
 SOURCE += resilience.yaml
 
+TARGET_DIR = output
+
 # All the different files we'll create
-TARGET = resilience.html
-TARGET += resilience-presentation.html
-TARGET += resilience.pdf
-
-# pandoc options
-PANDOC := pandoc -f markdown+mmd_title_block --slide-level=2 --smart --css=resilience.css
-
-#OFFLINE := -s --self-contained
-OFFLINE := -s
+TARGET = $(TARGET_DIR)/resilience.html
+TARGET += $(TARGET_DIR)/resilience-presentation.html
+TARGET += $(TARGET_DIR)/resilience.pdf
 
 # reveal.js options
 REVEALJS_THEME := sky
+REVEALJS_CSS := resilience.css
+
+# pandoc options
+PANDOC := pandoc -f markdown+mmd_title_block --slide-level=2 --smart 
+#OFFLINE := -s --self-contained
+OFFLINE := -s
  
 # build everything by default
-all: $(TARGET)
+all: output_dir $(TARGET)
 
+output_dir:
+		mkdir -p $(TARGET_DIR)
+
+#
 # generate reveal.js files
 %-presentation.html: $(SOURCE)
-		$(PANDOC) $(OFFLINE) -t revealjs -V theme=$(REVEALJS_THEME) -o $@ $(SOURCE)
+		$(PANDOC) $(OFFLINE) --self-contained -t revealjs -V theme=$(REVEALJS_THEME) --css=$(REVEALJS_CSS) -o $@ $(SOURCE)
 
 # generate html file
 %.html: $(SOURCE)

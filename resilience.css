@@ -1,8 +1,8 @@
 @import url('reveal.js/css/theme/sky.css');
 
-.reveal h1, .reveal h2 { 
-  font-size: 2em; 
-}
+.reveal h1 { font-size: 2em; }
+.reveal h2 { font-size: 1.5em; }
+.reveal h3 { font-size: 1em; }
 
 .reveal dl {
     text-align: left;

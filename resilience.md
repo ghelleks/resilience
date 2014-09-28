@@ -62,20 +62,25 @@ every development option that make sense for their project.
 
 # Materials
 
-## Overview
+## Coursework
 
-* **Orientation.**
-  ~ First principles that can guide all subsequent decisions.
-* **Products and Services**
-  ~ The basics of the software and consulting business.
-* **Relationships.**
-  ~ Working with NGOs, foundations, customers, users, and stakeholders.
-* **Intellectual Rights.**
-  ~ Safely sharing and protecting your work; copyright, licensing, and patents, 
-* **Communication.**
-  ~ Getting the attention you deserve with marketing, events, and public relations.
-* **Community.**
-  ~ Building a community infrastructure.
+**Orientation.**
+:   First principles that can guide all subsequent decisions.
+
+**Products and Services**
+:   The basics of the software and consulting business.
+
+**Relationships.**
+:   Working with NGOs, foundations, customers, users, and stakeholders.
+
+**Intellectual Rights.**
+:   Safely sharing and protecting your work; copyright, licensing, and patents, 
+
+**Communication.**
+:   Getting the attention you deserve with marketing, events, and public relations.
+
+**Community.**
+:   Building a community infrastructure.
 
 <div class="notes">
 The material is divided into a number of modules, each with their own readings, workshops, and course work.
@@ -92,16 +97,19 @@ make.
 By encouraging a self-aware and deliberative process, our leaders will be
 better able to articulate their mission to stakeholders, and make more informed
 decisions about the issues introduced later in the coursework. 
+
+Some example discussions are included below:
 </div>
 
-* **What's your appetite?**
-    * Is this a hobby, or do you want to do this full-time?
-    * How much money would keep you from working on this ever again?
-    * Do you love the project, the people, or the mission?
-* **What's your exit?**
-    * Are you time-bound?
-    * Are you milestone-bound?
-    * Using regret as a compass.
+**What's your appetite?**
+:   Is this a hobby, or do you want to do this full-time?
+:   How much money would keep you from working on this ever again?
+:   Do you love the project, the people, or the mission?
+
+**What's your exit?**
+:   Are you time-bound?
+:   Are you milestone-bound?
+:   Using regret as a compass.
 
 ## Products & Services
 
@@ -110,14 +118,17 @@ Very few leaders have been involved in a professional sofware operation. This mo
 
 </div>
 
-* **Business Models**
-  ~ Licensing, consulting, support contracts
-* **Product Management**
-  ~ Managing roadmaps, triaging bugs
-* **Quality Assurance**
-  ~ Code reviews, security, and test-driven development
-* **Release Engineering**
-  ~ Code reviews, product packaging
+**Business Models.**
+:   Licensing, consulting, support contracts.
+
+**Product Management.**
+:   Managing roadmaps and triaging bugs.
+
+**Quality Assurance.**
+:   Code reviews, security, and test-driven development.
+
+**Release Engineering.**
+:   Understanding code reviews and product packaging.
 
 ## Relationships
 
@@ -127,14 +138,17 @@ stakeholders in their project, what those stakeholders expect of them, and how
 they can make those relationships as productive as possible.
 </div>
 
-* **Investors**
-  ~ Private equity, venture capital, philanthropy
-* **Customers**
-  ~ Creating a value proposition, basic sales principles
-* **Users**
-  ~ Listening to your beneficiaries
-* **Channel Partners**
-  ~ VARs, Distributors
+**Investors.**
+:   Private equity, venture capital, and philanthropy.
+
+**Customers.**
+:   Creating a value proposition and basic sales principles.
+
+**Users.**
+:   Listening to your beneficiaries.
+
+**Channel Partners.**
+:   Resellers, VARs, and Distributors
 
 ## Intellectual Rights
 
@@ -148,12 +162,16 @@ leaders into _a priori_ lawyers, but it will help them understand the issues
 involved and know what questions to ask. 
 </div>
 
-* **Copyright**
-  ~ How copyright applies to software, how to properly manage a portfolio of software
-* **Patents**
-  ~ Understanding the patent regime, protecting the project from non-practicing entities
-* **Open Source Licensing**
-  ~ Choosing a license, managing community contributions
+**Copyright.**
+:   How copyright applies to software.
+:   How to properly manage a portfolio of software.
+
+**Patents**
+:   Understanding the patent regime.
+:   Protecting the project from non-practicing entities.
+
+**Open Source Licensing**
+:   Choosing a license, managing community contributions.
 
 ## Communication
 
@@ -164,27 +182,43 @@ to understand and apply all possible routes to market, know which tools are most
 reach a particular audience, and how to measure their progress.
 </div>
 
-* **Audiences.**
-  ~ Funders, users, customers, vendors, partners
-* **Creating a brand.**
-  ~ Designs, creation, and upkeep
-* **Tools.**
-  ~ Online, print, interactive, events, analytics
-* **Working with agencies and channels.**
-  ~ Collaborations, templates, and brand books
+**Audiences.** 
+:   Distinguishing funders, users, customers, vendors, and partners.
+
+**Creating a brand.** 
+:   Designs, creation, and upkeep.
+
+**Tools.** 
+:   Online, print, interactive, events, and analytics.
+
+**Working with agencies and channels.** 
+:   Collaborations, templates, and brand books.
 
 ## Community
 
 <div class="notes">
-While many of these projects are TK
+While many civic software projects already have good grounding in open source
+development models, they may not necessarily understand the importance of
+community-building, or how that discipline functions in practice.
+
+The Community module helps these projects understand the importance of
+community-building, not just for the narrow technical community of
+contributors to their project, but the larger communities they serve and
+benefit from their work. By teaching them the fundamentals of
+community-building, they can better grasp all the resources they have
+available in the civic technology community and the local communities that
+they serve.
 </div>
 
-* **Taxonomy**
-  ~ Different kinds of communities, Etienne Wenger and Karl Fogel's conceptions
-* **Tools**
-  ~ Different technology and methods for handling community work
-* **Development**
-  ~ Strategies for seeding, measuring, and nurturing
+**Taxonomy.**
+:   Different kinds of communities.
+:   Etienne Wenger and Karl Fogel's research.
+
+**Tools.**
+:   Different technology and methods for handling community work.
+
+**Development.**
+:   Strategies for seeding, measuring, and nurturing.
 
 # Approach
 

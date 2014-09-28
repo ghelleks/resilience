@@ -8,13 +8,13 @@ TARGET += resilience-presentation.html
 TARGET += resilience.pdf
 
 # pandoc options
-PANDOC := pandoc -f markdown+mmd_title_block --slide-level=2
+PANDOC := pandoc -f markdown+mmd_title_block --slide-level=2 --smart --css=resilience.css
 
 #OFFLINE := -s --self-contained
 OFFLINE := -s
 
 # reveal.js options
-REVEALJS_THEME := solarized
+REVEALJS_THEME := sky
  
 # build everything by default
 all: $(TARGET)

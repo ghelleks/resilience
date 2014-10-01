@@ -17,6 +17,7 @@ REVEALJS_CSS := resilience.css
 
 # latex options
 LATEX_TEMPLATE := pandoc-templates/handout.tex
+LATEX_PREAMBLE := latex-preamble.tex
 
 # pandoc options
 PANDOC := pandoc -f markdown+mmd_title_block --slide-level=2 --smart 
@@ -40,8 +41,8 @@ output_dir:
 
 # generate pdf file
 pdf: $(PDF_TARGET)
-%.pdf: $(SOURCE) $(LATEX_TEMPLATE)
-		$(PANDOC) -V links-as-notes --template $(LATEX_TEMPLATE) -o $@ $(SOURCE)
+%.pdf: $(SOURCE) $(LATEX_TEMPLATE) $(LATEX_PREAMBLE)
+		$(PANDOC) -V links-as-notes -H $(LATEX_PREAMBLE) --template $(LATEX_TEMPLATE) -o $@ $(SOURCE)
 
 # delete everything we make
 clean:

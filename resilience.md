@@ -14,12 +14,16 @@ businesspeople. This means their tools do not reach everyone they could.
 It means indefinite dependence on funding organizations. More importantly, 
 it means missed opportunities for them and their projects.
 
-Even a rudimentary understanding of the business world can open doors for
-this movement and protect the hard work they've poured into these tools.
-They can provide a safer home for their funder's investments. They can confidently
-explore commercialization options. They can navigate disastrous intellectual
-property issues. They can ensure that their tool is useful long after they've
-moved on to their next project.
+The Knight Foundation estimated in 2013 that this movement was showered with
+[$67 million in grants][knight], much of which was spent on early-stage and 
+incubating projects. Even a rudimentary understanding of the business world 
+could make these investments more valuable and protect the hard work that's
+been poured into these tools. Better-educated projects could confidently 
+explore different sustainment and commercialization options. They could navigate 
+disastrous intellectual property issues. They can ensure that their tool is 
+useful to the public long after they've moved on to their next project.
+
+[knight]: http://www.knightfoundation.org/media/uploads/publication_pdfs/knight-civic-tech.pdf
 
 The Resilience Project provides a flexible curriculuum in the fields of business, 
 law, and marketing that's tailored for amateur civic developers. That education is 
@@ -64,6 +68,10 @@ every development option that make sense for their project.
 
 ## Coursework
 
+<div class="notes">
+The material is divided into a number of modules, each with their own readings, workshops, and course work.
+</div>
+
 **Orientation.**
 :   First principles that can guide all subsequent decisions.
 
@@ -81,10 +89,6 @@ every development option that make sense for their project.
 
 **Community.**
 :   Building a community infrastructure.
-
-<div class="notes">
-The material is divided into a number of modules, each with their own readings, workshops, and course work.
-</div>
 
 ## Orientation
 
@@ -145,7 +149,11 @@ they can make those relationships as productive as possible.
 :   Creating a value proposition and basic sales principles.
 
 **Users.**
-:   Listening to your beneficiaries.
+:   How to work most effectively with the beneficiaries of your project.
+
+**Government.**
+:   Understanding how the Federal, state, and local government work with small
+business.
 
 **Channel Partners.**
 :   Resellers, VARs, and Distributors

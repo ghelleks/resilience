@@ -5,13 +5,18 @@ SOURCE += resilience.yaml
 TARGET_DIR = output
 
 # All the different files we'll create
-TARGET = $(TARGET_DIR)/resilience.html
-TARGET += $(TARGET_DIR)/resilience-presentation.html
-TARGET += $(TARGET_DIR)/resilience.pdf
+HTML_TARGET = $(TARGET_DIR)/resilience.html
+REVEALJS_TARGET = $(TARGET_DIR)/resilience-presentation.html
+PDF_TARGET = $(TARGET_DIR)/resilience.pdf
+
+TARGET = $(HTML_TARGET) $(REVEALJS_TARGET) $(PDF_TARGET)
 
 # reveal.js options
 REVEALJS_THEME := sky
 REVEALJS_CSS := resilience.css
+
+# latex options
+LATEX_TEMPLATE := pandoc-templates/handout.tex
 
 # pandoc options
 PANDOC := pandoc -f markdown+mmd_title_block --slide-level=2 --smart 
@@ -34,8 +39,9 @@ output_dir:
 		$(PANDOC) -o $@ $(SOURCE)
 
 # generate pdf file
-%.pdf: $(SOURCE)
-		$(PANDOC) -o $@ $(SOURCE)
+pdf: $(PDF_TARGET)
+%.pdf: $(SOURCE) $(LATEX_TEMPLATE)
+		$(PANDOC) -V links-as-notes --template $(LATEX_TEMPLATE) -o $@ $(SOURCE)
 
 # delete everything we make
 clean:
